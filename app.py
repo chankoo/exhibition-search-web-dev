@@ -2,7 +2,6 @@ from flask import Flask, render_template, request, json, redirect, url_for
 from flask_sqlalchemy import SQLAlchemy
 import pandas as pd
 import sqlite3
-# import io, base64
 
 from input import art_input
 import input_book
@@ -16,7 +15,7 @@ app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///ExhbnRec.db'
 app.config['SECRET_KEY'] = "dubu"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-app.debug =True
+app.debug = False
 
 db = SQLAlchemy(app)
 conn = sqlite3.connect("ExhbnRec.db")
