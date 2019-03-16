@@ -1,8 +1,13 @@
-# exhibition-search-web-dev
+# 전시 예술 검색 서비스
+GOGOLE
 
-NLP based art exhibition searching web service. 18.08.29
 
-> http://13.124.211.10:5000
+NLP based art exhibition searching web service.
+
+
+18.08.29
+
+http://13.124.211.10:5000
 
 ## 서비스 소개
 ### model
